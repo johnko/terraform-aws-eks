@@ -404,7 +404,7 @@ module "vpc" {
 
 module "aws_vpc_cni_ipv4_pod_identity" {
   source  = "terraform-aws-modules/eks-pod-identity/aws"
-  version = "~> 1.6"
+  version = "~> 2.0"
 
   name = "aws-vpc-cni-ipv4"
 
