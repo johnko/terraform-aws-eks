@@ -436,7 +436,7 @@ data "aws_ami" "eks_default_bottlerocket" {
 
 module "key_pair" {
   source  = "terraform-aws-modules/key-pair/aws"
-  version = "~> 2.0"
+  version = "~> 3.0"
 
   key_name_prefix    = local.name
   create_private_key = true
